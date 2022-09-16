@@ -3,8 +3,8 @@ var rotationSpeed = 0.5;
 var myOtherBox = document.getElementById('myOtherBox');
 
 function spin() {
-myOtherBox.object3D.rotation.x.y -= rotationSpeed;
-console.log(myOtherBox.object3D.rotation.y);
+myOtherBox.object3D.rotation.x -= rotationSpeed;
+console.log(myOtherBox.object3D.rotation.x);
  }
 
 setInterval(spin,16); 
